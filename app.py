@@ -7,6 +7,11 @@ car_data = pd.read_csv('vehicles_us.csv')  # leer los datos
 build_histogram = st.checkbox('Construir un histograma')
 build_scatter = st.checkbox('Construir dispersión')
 
+
+st.header('Histograma y Dispersion en funcion de el kilometraje de un vehiculo')
+
+st.write('Programa ')
+
 if build_histogram:
     st.write(
         'Creación de un histograma para el conjunto de datos de anuncios de venta de coches')

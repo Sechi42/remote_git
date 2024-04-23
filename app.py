@@ -2,13 +2,12 @@ import streamlit as st
 import pandas as pd
 import plotly_express as px
 
+st.header('Histograma y Dispersion en funcion de el kilometraje de un vehiculo')
 
 car_data = pd.read_csv('vehicles_us.csv')  # leer los datos
 build_histogram = st.checkbox('Construir un histograma')
 build_scatter = st.checkbox('Construir dispersión')
 
-
-st.header('Histograma y Dispersion en funcion de el kilometraje de un vehiculo')
 
 st.write('Programa ')
 
